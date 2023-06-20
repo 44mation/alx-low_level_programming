@@ -1,1 +1,1 @@
-readme file for starting programming with C
+readme file for low level programming

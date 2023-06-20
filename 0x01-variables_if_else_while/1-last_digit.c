@@ -5,9 +5,9 @@
 /**
  * main - entry
  *
- * Discreption : coding using
+ * Description: coding using
  *
- * Return : 0 is fuccess
+ * Return: 0 is success
 */
 
 int main(void)

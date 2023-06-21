@@ -5,7 +5,6 @@
  *
  * Description: code that prints
  *
- * Return: a 0 if success
 */
 
 void print_alphabet(void)
@@ -16,5 +15,4 @@ void print_alphabet(void)
 		_putchar(a);
 	_putchar('\n');
 
-	return (0);
 }

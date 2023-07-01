@@ -4,7 +4,8 @@
  * _strcat - fnction that concatenate 2 strings
  * @dest: first input
  * @src: second input
- * Return : return a pointer
+ *
+ * Return: return a pointer
 */
 
 char *_strcat(char *dest, char *src)

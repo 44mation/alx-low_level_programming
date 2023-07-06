@@ -2,8 +2,9 @@
 
 /**
  * _sqrt_recursion - calcul the root square
- * @n: the input
- * return: the answer
+ * @n: the input 1
+ * @x: the input 2
+ * Return: the answer
 */
 
 int square(int n, int x);
@@ -16,7 +17,7 @@ int _sqrt_recursion(int n)
  * square - calcul the square
  * @n: first input
  * @x: seconde input
- * return: the answer
+ * Return: the answer
 */
 
 int square(int n, int x)
@@ -29,5 +30,4 @@ int square(int n, int x)
 	}
 	else
 		return (-1);
-		
 }

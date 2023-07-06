@@ -4,20 +4,20 @@
  * is_prime_number - checks a number if prime or not
  * @n: input 1
  * @x: input 2
- * return: true 1 or false 0
+ * Return: true 1 or false 0
 */
 
 int prime(int n, int x);
 int is_prime_number(int n)
 {
-	return(prime(n, 2));
+	return (prime(n, 2));
 }
 
 /**
  * prime - the function that checks
  * @n: first input
  * @x: seconde input
- * return: the number check
+ * Return: the number check
 */
 
 int prime(int n, int x)

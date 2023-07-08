@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * myname - function that returns name of file
@@ -7,8 +7,9 @@
  * Return: always 0
 */
 
-int myname(int argc, char **argv)
+int main(int argc, char const **argv)
 {
+	(void)argc;
 	printf("%s\n", argv[0]);
 	return (0);
 }

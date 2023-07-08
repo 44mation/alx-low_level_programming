@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * add - the main function
+ * main - the main function
  * @argc: input 1
  * @argv: input 2
  * Return: always 0
 */
 
-int add(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int s = 0;
 	char *c;

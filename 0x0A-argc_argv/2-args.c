@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * s_args - fct prints
+ * main - fct prints
  * @argc: input 1
  * @argv: input 2
  * Return: always 0
 */
 
-int s_args(int argc, char **argv)
+int main(int argc, char const **argv)
 {
 	int i = 0;
 

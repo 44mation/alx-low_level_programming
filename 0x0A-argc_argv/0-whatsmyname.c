@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * myname - function that returns name of file
+ * main - function that returns name of file
  * @argc: first input
  * @argv: second input
  * Return: always 0

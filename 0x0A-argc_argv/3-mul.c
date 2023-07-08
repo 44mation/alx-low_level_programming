@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - fct prints
+ * mul - fct prints
  * @argc: input 1
  * @argv: input 2
  * Return: always 0
 */
 
-int main(int argc, char **argv)
+int mul(int argc, char **argv)
 {
 	int s;
 

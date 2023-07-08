@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - print number
+ * f_args - print number
  * @argc: first input
  * @argv: second input
  * Return: always 0
 */
 
-int main(int argc, char *argv[])
+int f_args(int argc, char **argv)
 {
 	printf("%d\n", argc - 1);
 	return (0);

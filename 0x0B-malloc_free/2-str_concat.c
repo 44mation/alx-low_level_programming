@@ -1,6 +1,12 @@
 #include "main.h"
+#include <string.h>
 
-/***/
+/**
+ * _concat - main function
+ * @s1: first input
+ * @s2: second input
+ * Return: somthing
+*/
 
 char *str_concat(char *s1, char *s2)
 {
@@ -23,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 		if (i < size1)
 			a[i] = s1[i];
 		else
-			a[i] = s2[i size1];
+			a[i] = s2[i - size1];
 	}
 	a[i] = '\0';
 	return (a);

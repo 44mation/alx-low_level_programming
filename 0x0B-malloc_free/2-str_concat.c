@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _concat - main function
+ * str_concat - main function
  * @s1: first input
  * @s2: second input
  * Return: somthing
@@ -20,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 
 	size1 = strlen(s1);
 	size2 = strlen(s2);
-	a = malloc((size1 + size2) *sizeof(char) + 1);
+	a = malloc((size1 + size2) * sizeof(char) + 1);
 	if (a == 0)
 		return (0);
 

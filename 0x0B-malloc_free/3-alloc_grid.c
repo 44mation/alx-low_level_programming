@@ -4,7 +4,7 @@
  * alloc_grid - main function
  * @width: input1
  * @height: input2
- * Retrun: the matrix
+ * Return: the matrix
 */
 
 int **alloc_grid(int width, int height)

@@ -4,6 +4,7 @@
 /**
  * free_dog - free the dogs
  * @d: the dog
+ * Return: void
 */
 
 void free_dog(dog_t *d)

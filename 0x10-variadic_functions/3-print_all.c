@@ -2,7 +2,7 @@
 
 /**
  * f_char - for character
- * @seprator: the separator
+ * @separator: the separator
  * @ptr: arg pointer
 */
 
@@ -13,29 +13,29 @@ void f_char(char *separator, va_list ptr)
 
 /**
  * f_int - for integer
- * @seprator: the separator
+ * @separator: the separator
  * @ptr: arg pointer
 */
 
 void f_int(char *separator, va_list ptr)
 {
-	        printf("%s%d", separator, va_arg(ptr, int));
+	printf("%s%d", separator, va_arg(ptr, int));
 }
 
 /**
  * f_float - for float
- * @seprator: the separator
+ * @separator: the separator
  * @ptr: arg pointer
 */
 
 void f_float(char *separator, va_list ptr)
 {
-	        printf("%s%f", separator, va_arg(ptr, double));
+	printf("%s%f", separator, va_arg(ptr, double));
 }
 
 /**
  * f_string - for strings
- * @seprator: the separator
+ * @separator: the separator
  * @ptr: arg pointer
 */
 
@@ -47,7 +47,7 @@ void f_string(char *separator, va_list ptr)
 	case 1:
 		st = "(nil)";
 
-        printf("%s%s", separator, st);
+	printf("%s%s", separator, st);
 }
 
 

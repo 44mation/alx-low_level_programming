@@ -59,7 +59,7 @@ void f_string(char *separator, va_list ptr)
 
 void print_all(const char * const format, ...)
 {
-	int i = 0, j = 0;
+	int i = 0, j;
 	char *separator = "";
 	va_list ptr;
 	token_t tokens[] = {
@@ -73,6 +73,7 @@ void print_all(const char * const format, ...)
 	va_start(ptr, format);
 	while (format && format[i])
 	{
+		j = 0;
 		while (tokens[j].token)
 		{
 			if (format[i] == tokens[j].token[0])

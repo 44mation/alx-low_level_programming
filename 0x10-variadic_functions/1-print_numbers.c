@@ -9,7 +9,7 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	int i;
+	int i = n;
 	va_list ptr;
 
 	if (!n)
@@ -18,7 +18,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		return;
 	}
 	va_start(ptr, n);
-	for (i = 0, i < n, i++)
+	while (i--)
 		printf("%d%s", va_arg(ptr, int), i ? (separator ? separator : "") : "\n");
 	va_end(ptr);
 }

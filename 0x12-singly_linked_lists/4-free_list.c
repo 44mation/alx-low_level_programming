@@ -1,4 +1,4 @@
-#include "lists.c"
+#include "lists.h"
 
 /**
  * free_list - free all nodes

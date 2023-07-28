@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * _strlent: calculate the lenght of the string
+ * _strlent - calculate the lenght of the string
  * @s: the string to calulate
  * Return: the lenght
 */

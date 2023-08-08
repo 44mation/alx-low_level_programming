@@ -1,6 +1,23 @@
 #include "mian.h"
 
 /**
+ * _strlen - the length of text
+ * @text: th text
+ * Return: the length
+*/
+int _strlen(char *text)
+{
+	int i = 0;
+
+	if (!text)
+		return (0);
+
+	while (*text++)
+		i++;
+	return (i);
+}
+
+/**
  * create_file - function to creat a file
  * @filename: the name
  * @text_content: the file content
@@ -10,7 +27,7 @@
 int create_file(const char *filename, char *text_content)
 {
 	int id;
-	ssize_t b = 0, lent = strlen(text_content);
+	ssize_t b = 0, lent = _strlen(text_content);
 
 	if (!filename)
 		return (-1);
